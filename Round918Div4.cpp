@@ -49,20 +49,20 @@ int main() {
 // C
 /*#include <bits/stdc++.h>
 using namespace std;
-bool isPerfectSquare(int num) {
-    int squareRoot = sqrt(num);
+bool isPerfectSquare(long long num) {
+    long long squareRoot = sqrt(num);
     return squareRoot * squareRoot == num;
 }
 int main(){
-    int t,n,i;
-    int a[65536];
+    long long t,n,i;
+    long long a;
     cin >> t;
     while(t--){
         cin >> n;
-        int sum=0;
+        long long sum=0;
         for(i=0;i<n;i++){
-            cin >> a[i];
-            sum = sum + a[i];
+            cin >> a;
+            sum = sum + a;
         }
      if (isPerfectSquare(sum)) {
         cout << "YES" << endl;
